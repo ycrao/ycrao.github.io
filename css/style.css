@@ -1,0 +1,160 @@
+/*
+ * @title       style
+ * @name        style.css
+ * @author      raoyc
+ * @link        http://raoyc.com/
+ * @description raoyc.com个人博客站点通用样式
+ * @copyright   Copyright (c) 2014
+ */
+@charset "utf-8";
+@import url("lib/reset.css");
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} /*清除浮动*/
+a{color:#333; text-decoration:none;}
+::selection {background:#000;color:#fff;}
+::-moz-selection {background:#000;color:#fff;}
+::-webkit-selection {background:#000;color:#fff;}
+a{text-decoration:none;}
+
+body{
+font-size: 14px;
+line-height: 20px;
+color: #555;
+overflow-x: hidden;
+background-color: #ffffff;
+font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1", "Hiragino Sans GB", sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+
+/*index.html style*/
+@media ( min-width:320px ) {
+    .header_col,.content_col{
+        width: 320px;
+        text-align: center;
+    }
+}
+@media (min-width: 640px) {
+    .header_col,.content_col{
+        width: 640px;
+        text-align: center;
+    }
+}
+.header_col,.content_col{
+    margin: 0 auto;
+}
+.footer_text{
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_col{
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    background: #111;
+    position: relative;
+    clear: both;
+}
+.logo_avatar{
+    margin-top: 28px;
+}
+.logo_avatar h3{
+    font-size: 16px;
+    color: #000;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+.qq_thumb img {
+    -moz-border-radius: 98px;
+    -webkit-border-radius: 98px;
+    border-radius: 98px;
+}
+.qq_thumb{
+    width: 98px;
+    height: 98px;
+    padding: 4px;
+    margin: 0 auto;
+    border: 1px solid #ced0d3;
+    -moz-border-radius: 98px;
+    -webkit-border-radius: 98px;
+    border-radius: 98px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.work_links{
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.work_links>a{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 120px;
+    height: 160px;
+    text-align: center;
+}
+.work_links a:hover div{
+    opacity: 0.8;
+}
+.list_inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list_inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.social_icons li a i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+.social_icons li a i:hover{
+    opacity: 0.8;
+}
+
+.social_icons li a i.fa-github{
+    background-color: #4183c4;
+}
+
+.social_icons li a i.fa-tencent-weibo{
+    background-color: #0d9ffa;
+}
+
+.social_icons li a i.fa-weibo{
+    background-color: #eb6060;
+}
+
+.social_icons li a i.fa-qq{
+    background-color: #cb2027;
+}
+
+.social_icons li a i.fa-weixin{
+    background-color: #2db85e;
+}
+
+.footer_col p{
+    color: #858585;
+}
+.footer_col p a{
+    color: #f1f1f1;
+}
+.footer_col p.copyright{
+    color: #424242;
+}

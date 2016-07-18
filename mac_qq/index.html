@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模拟Mac QQ登录界面[html5]</title>
+	<meta name="description" content="模拟Mac QQ登录界面！" />
+	<meta name="author" content="http://raoyc.com/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="css/mac_qq.css" />
+	<script type="text/javascript">
+		window.onload = function (){
+				var oStatus = document.getElementById('qq_status');
+				var oSpan1 = oStatus.getElementsByTagName('span');
+				var i = 0;
+				oStatus.onclick = function ()
+				{
+					for(i=0;i<oSpan1.length;i++)
+					{
+						if(oSpan1[i].className=='on')
+						{
+							oSpan1[i].className='';
+						}
+						else
+						{
+							oSpan1[i].className='on';
+						}
+					}
+				}
+				var oQQ = document.getElementById('qq_mini_wrapper');
+				var oShowmore = document.getElementById('show_more');
+				var oSpan2 = oShowmore.getElementsByTagName('span');
+				var oAS = document.getElementById('advanced_setting');
+				oShowmore.onclick = function ()
+				{
+					for(i=0;i<oSpan2.length;i++)
+					{
+						if(oSpan2[i].className=='on')
+						{
+							oSpan2[i].className='';
+						}
+						else
+						{
+							oSpan2[i].className='on';
+						}
+					}
+					if(oSpan2[0].className=='')
+					{
+						oAS.className='clearfix';
+						oQQ.className='box_shadow_h';
+					}
+					else
+					{
+						oAS.className='as_off clearfix';
+						oQQ.className='box_shadow_l';
+					}
+				}
+
+		}
+	</script>
+</head>
+<body>
+	<div id="desc">
+		<p>模拟Mac QQ登录界面，请使用支持HTML5的现代浏览器浏览本页面！</p>
+	</div>
+	<div id="qq_mini_wrapper" class="box_shadow_l">
+		<div class="title_bar clearfix">
+			<div id="close_btn" class="on"></div>
+		</div>
+		<div class="qq_thumb clearfix" id="qq_thumb">
+			<img width="114" height="114" src="images/C370F48D1A9ACB49E94433515AFA64DB.jpg" style="display:inline;" />
+		</div>
+		<div class="clearfix" id="qq_status">
+			<span class="on"><img src="images/status_on.gif" width="15" height="15" /></span>
+			<span><img src="images/status_hide.gif" width="15" height="15" /></span>
+		</div>
+		<div class="login_box clearfix">
+			<input type="text" class="qq_id" value="837454876" />
+			<input type="password" class="qq_pswd" value="password" />
+			<span id="login"><a href="#"><img src="images/login.png" width="20" height="20" /></a></span>
+		</div>
+		<div id="show_more" class="clearfix">
+			<span class="on"><img src="images/show_more.png" width="28" height="12" /></span>
+			<span><img src="images/show_little.png" width="28" height="12" /></span>
+		</div>
+	</div>
+	<div id="advanced_setting" class="as_off clearfix">
+		<div class="blank_height"></div>
+		<ul class="as_box">
+			<li><span class="left"><input name="remember_password" checked="true" type="checkbox" />记住密码</span> <span class="right"><a href="#">忘记密码</a></span></li>
+			<li><span class="left"><input name="auto_login" type="checkbox" />自动登录</span> <span class="right"><a href="#">注册账号</a></span></li>
+		</ul>
+	</div>
+	
+</body>
+</html>

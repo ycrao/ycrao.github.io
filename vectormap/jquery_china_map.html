@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>基于jquery的中国地图</title>
+    <link href="js/jquery.vector-map.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.6.min.js" type="text/javascript"></script>
+    <script src="js/jquery.vector-map.js" type="text/javascript"></script>
+    <script src="js/china-zh.js" type="text/javascript"></script>
+    <script src="js/beijing-zh.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            //数据可以动态生成，格式自己定义，cha对应china-zh.js中省份的简称
+            var dataStatus = [
+                             { id: 'HAI', name: '海南', des: '<br/>发展战略',url:'#hainan'  },
+                             { id: 'BEJ', name: '北京', des: '<br/>发展战略' ,url:'#beijing' },
+                             { id: 'TAJ', name: '天津', des: '<br/>发展战略',url:'#tianjin'  },
+                             { id: 'NMG', name: '内蒙古', des: '<br/>发展战略' ,url:'#neimenggu' },
+                             { id: 'SHX', name: '山西', des: '<br/>发展战略' ,url:'#shanxi' },
+                             { id: 'HUN', name: '湖南', des: '<br/>发展战略' ,url:'#hunan' },
+                             { id: 'GUD', name: '广东深圳', des: '<br/>发展战略',url:'#guangdong' }];
+            
+            
+　　$('#map').vectorMap({
+　　　　map: 'china_zh',
+　　　　/*backgroundColor: false,*/
+　　　　color: "#DA8B10",
+　　　　/*hoverColor: false,*/
+　　　　//显示各地区名称和活动
+　　　　onLabelShow: function (event, label, code) {
+　　　　　　$.each(dataStatus, function (i, items) {
+　　　　　　　　if (code == items.id) {
+　　　　　　　　　　label.html(items.name + items.des);
+　　　　　　　　}
+　　　　　　});
+　　　　},
+
+　　　　//鼠标移入省份区域，改变鼠标状态
+　　　　onRegionOver: function(event, code){
+　　　　　　$.each(dataStatus, function (i, items) {
+　　　　　　　　if ((code == items.id) && (items.event != '')) {
+　　　　　　　　　　$('#map').css({cursor:'pointer'});
+　　　　　　　　}
+　　　　　　});
+　　　　},
+
+　　　　//鼠标移出省份区域，改回鼠标状态
+　　　　onRegionOut: function(event, code){
+　　　　　　$.each(dataStatus, function (i, items) {
+　　　　　　　　if ((code == items.id) && (items.event != '')) {
+　　　　　　　　　　$('#map').css({cursor:'auto'});
+　　　　　　　　}
+　　　　　　});
+　　　　},
+
+　　　　//点击有活动的省份区域，打开对应活动列表页面
+　　　　onRegionClick: function(event, code){
+　　　　　　$.each(dataStatus, function (i, items) {
+　　　　　　　　if ((code == items.id) && (items.event != '')) {
+　　　　　　　　　　window.location.href = items.url;
+　　　　　　　　}
+　　　　　　});
+　　　　}　　
+　　  });
+　　//改变有活动省份区域的颜色
+　　$.each(dataStatus, function (i, items) {
+　　　　if (items.des.indexOf('发展战略') != -1) {
+　　　　　　var josnStr = "{" + items.id + ":'#00FF00'}";
+　　　　　　$('#map').vectorMap('set', 'colors', eval('(' + josnStr + ')'));
+　　　　}
+　　});
+    $('.jvectormap-zoomin').click(); //放大
+
+});
+    </script>
+</head>
+<body>
+    <div id="map" style="margin-left: 45px; padding-top: 10px; padding-left: 10px;
+        background: white; width: 650px; height: 520px;">
+    </div>
+</body>
+</html>

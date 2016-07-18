@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AHK CKEditor</title>
+	<script src="../ckeditor.js"></script>
+	<link href="sample.css" rel="stylesheet">
+	<script>
+	document.oncontextmenu=function(){return false;}
+// The instanceReady event is fired, when an instance of CKEditor has finished
+// its initialization.
+CKEDITOR.on( 'instanceReady', function( ev ) {
+	// Show the editor name and description in the browser status bar.
+	document.getElementById( 'eMessage' ).innerHTML = 'Instance <code>' + ev.editor.name + '<\/code> loaded.';
+
+	// Show this sample buttons.
+	document.getElementById( 'eButtons' ).style.display = 'block';
+});
+function SetContents(key) {
+	// Get the editor instance that we want to interact with.
+	var editor = CKEDITOR.instances.ckeditor;
+	// Set editor contents (replace current contents).
+	// http://docs.ckeditor.com/#!/api/CKEDITOR.editor-method-setData
+	var main = '<h1>类库：JSON</h1>\
+<p>此库提供JSON数据解析与读写功能。</p>\
+<h2>简介</h2>\
+<p><strong>分类：</strong>数据处理 - JSON解析</p>\
+<p><strong>文件名：</strong>json.ahk</p>\
+<p><strong>依赖性：</strong>无</p>\
+<p><strong>兼容性：</strong>新版(L版v1.1.9.0)测试正常，历史Basic版请自行测试。</p>\
+<h2>参考</h2>\
+<p>JSON是一种轻量级的数据交换语言，为JavaScript的一个子集。关于JSON更多介绍，请访问下面站点。</p>\
+<p>JSON官网：<a href="http://www.json.org/json-zh.html">http://www.json.org/json-zh.html</a><br />\维基介绍：<a href="http://zh.wikipedia.org/wiki/JSON">JSON</a></p>\
+<h2>函数列表</h2>\
+<p>此库包含唯一函数：</p>\
+<ul>\	<li><a href="sample#">json()</a></li>\</ul>\
+<h2>备注</h2>\
+<p>据官方（英文）论坛反馈的信息，部分复杂的JSON数据可能无法正确解析到。使用前，请自行测试。</p>\
+<h2>来源及其授权协议</h2>\
+<p><strong>作者：</strong>polyethene</p>\
+<p><strong>来源：</strong><a href="http://www.autohotkey.net/~polyethene/#json">http://www.autohotkey.net/~polyethene/#json</a><br />\<a href="http://www.autohotkey.com/board/topic/31619-json-readwrite-parser/">http://www.autohotkey.com/board/topic/31619-json-readwrite-parser/</a></p>\
+<p><strong>版本：</strong> Version 2.0</p>\
+<p><strong>授权协议：</strong>Dedicated to the public domain (CC0 1.0) <a href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</a> 公共领域</p>';
+	var sub = '<h1>函数：json()</h1>\
+<p>此函数实现对<i>JSON</i>数据进行读写的功能，来自<a href="sample#">JSON</a>类库。</p>\
+<pre class="Syntax">\
+#include&lt;json&gt;\n\
+json(ByRef js, s, v = &quot;&quot;)</pre>\
+<h3>参数</h3>\
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%">\
+	<tbody>\
+		<tr>\
+			<td>js</td>\
+			<td>\
+			<p>ByRef类型，JSON数据源。</p>\
+			</td>\
+		</tr>\
+		<tr>\
+			<td>s</td>\
+			<td>\
+			<p>要读写JSON数据元素的路径。</p>\
+			</td>\
+		</tr>\
+		<tr>\
+			<td>v</td>\
+			<td>\
+			<p>可选，写模式下要覆写元素的值。</p>\
+			</td>\
+		</tr>\
+	</tbody>\
+</table>\
+<h3>返回值</h3>\
+<p>Value of element (prior to change)，返回要指定元素的值（写模式下会返回未改写之前的值）。</p>\
+<h3>备注</h3>\
+<p>此函数对部分复杂的JSON数据，可能无法正确解析。</p>\
+<h3>相关</h3>\
+<p>无</p>\
+<h3>示例</h3>\
+<pre class="prettyprint">\
+<em>; ref: http://www.autohotkey.com/board/topic/31619-json-readwrite-parser/</em>\n\
+<em>; JSON string: </em>\n\
+j = {&quot;version&quot;:&quot;1&quot;,&quot;window&quot;:{&quot;state&quot;:3,&quot;screenX&quot;:25,&quot;screenY&quot;:25,&quot;width&quot;:790,&quot;height&quot;:605,&quot;test&quot;:{&quot;nested&quot;:&quot;object&quot;}},&quot;sidebar&quot;:{&quot;visible&quot;:false,&quot;width&quot;:&quot;200&quot;}}\n\
+MsgBox, % json(j, &quot;version&quot;) <em>; 返回&quot;1&quot; </em>\n\
+MsgBox, % json(j, &quot;window.width&quot;, 800) <em>; 返回790, 设置window-&gt;width值为800</em>\n\
+r = { &quot;a&quot; : true, &quot;b&quot; : [ 1, [ 2.1, 2.2, { &quot;sub&quot; : false, &quot;test&quot; : [ null, &quot;pass&quot; ] } ], 3 ] } \n\
+MsgBox, % json(r, &quot;b[1][2].test[1]&quot;) <em>; 数组支持 </em></pre>';
+	if(key == 'main')	editor.setData( main );
+	else if(key == 'sub')	editor.setData( sub );
+}
+function GetContents() {
+	// Get the editor instance that you want to interact with.
+	var editor = CKEDITOR.instances.ckeditor;
+	//var htmlcontent = editor.getData();
+
+	// Get editor contents
+	// http://docs.ckeditor.com/#!/api/CKEDITOR.editor-method-getData
+	alert( editor.getData() );
+}
+
+function ExecuteCommand( commandName ) {
+	// Get the editor instance that we want to interact with.
+	var editor = CKEDITOR.instances.ckeditor;
+
+	// Check the active editing mode.
+	if ( editor.mode == 'wysiwyg' )
+	{
+		// Execute the command.
+		// http://docs.ckeditor.com/#!/api/CKEDITOR.editor-method-execCommand
+		editor.execCommand( commandName );
+	}
+	else
+		alert( 'You must be in WYSIWYG mode!' );
+}
+
+function Focus() {
+	CKEDITOR.instances.ckeditor.focus();
+}
+
+function onFocus() {
+	document.getElementById( 'eMessage' ).innerHTML = '<b>' + this.name + ' is focused </b>';
+}
+
+function onBlur() {
+	document.getElementById( 'eMessage' ).innerHTML = this.name + ' lost focus';
+}
+
+	</script>
+
+</head>
+<body>
+	<h1 class="samples">
+		AHK CKEditor
+	</h1>
+	<div class="description">
+	<p>
+		此为CKEditor演示页面，为Autohotkey程序所调用，以协同完成可视化网页编辑等操作。注意，CKEditor 4不支持低版本IE浏览器(如IE 6)，如果您的IE浏览器为IE 6(-)，请及时升级到IE 8(+)。
+	</p>
+	</div>
+	<!-- This <div> holds alert messages to be display in the sample page. -->
+	<div id="alerts">
+		<noscript>
+			<p>
+				<strong>CKEditor requires JavaScript to run</strong>. In a browser with no JavaScript
+				support, like yours, you should still see the contents (HTML data) and you should
+				be able to edit it normally, without a rich editor interface.
+			</p>
+		</noscript>
+	</div>
+		<textarea cols="100" id="ckeditor" name="ckeditor" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="http://ckeditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+		<script>
+			CKEDITOR.replace( 'ckeditor', {
+				on: {
+					focus: onFocus,
+					blur: onBlur,
+					pluginsLoaded: function( evt ) {
+						var doc = CKEDITOR.document, ed = evt.editor;
+						if ( !ed.getCommand( 'bold' ) )
+							doc.getById( 'exec-bold' ).hide();
+						if ( !ed.getCommand( 'link' ) )
+							doc.getById( 'exec-link' ).hide();
+					}
+				}
+			});
+		</script>
+		<p id="eMessage">
+		</p>
+		<div id="eButtons" style="display: none">
+			<input id="exec-bold" onclick="ExecuteCommand('bold');" type="button" value="执行 &quot;bold&quot; 命令" />
+			<input id="exec-link" onclick="ExecuteCommand('link');" type="button" value="执行 &quot;link&quot; 命令" />
+			<input onclick="Focus();" type="button" value="获取编辑器焦点" />
+			<input onclick="GetContents();" type="button" value="获取编辑器内容(XHTML)" />
+			<input onclick="SetContents('main');" type="button" value="AHK帮助文档主模板" />
+			<input onclick="SetContents('sub');" type="button" value="AHK帮助文档子模板" />
+		</div>
+	<div id="footer">
+		<hr>
+		<p>
+			CKEditor - 互联网上的文本编辑器 - &lt;<b>http://ckeditor.com</b>&gt;
+		</p>
+		<p id="copy">
+			Copyright &copy; 2003-2013, CKSource&lt;<b>http://cksource.com/</b>&gt; - Frederico Knabben. 保留所有版权
+		</p>
+	</div>
+</body>
+</html>
