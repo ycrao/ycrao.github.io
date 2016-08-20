@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>飞扬小工具软件</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="https://yas.ystatic.cn/41345695beaa9b2e/css/github-markdown.css">
+    <script src="https://yas.ystatic.cn/lib/marked/marked.js"></script>
+</head>
+<body>
+<div class="markdown-body" id="content">
+
+</div>
+<script>
+function http_get(url) {
+    var xmlHttp = null, res = '';
+    if (window.XMLHttpRequest) {
+        xmlHttp = new XMLHttpRequest();  //FireFox、Opera等浏览器支持的创建方式
+    } else {
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");  //IE浏览器支持的创建方式 
+    }
+    if (xmlHttp.readyState == 4) {
+        document.getElementById('content').innerHTML = xmlHttp.responseText;
+    }
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
+    return res;
+}
+http_get('https://raw.githubusercontent.com/ycrao/fysoft/master/README.md');
+  </script>
+</body>
+</html>
