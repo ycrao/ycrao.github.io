@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://yas.ystatic.cn/lib/font-awesome/4.3.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://yas.ystatic.cn/lib/jQuery/jQuery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="https://yas.ystatic.cn/lib/layer/2.3/layer.js"></script>
 </head>
 <body>
     <div class="header_col logo_avatar">
@@ -33,7 +32,7 @@
             <a href="https://github.com/ycrao/fysoft"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-2.png"></div><p>飞扬软件</p></a>
             <a href="http://www.yascmf.com"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-3.png"></div><p>YASCMF</p></a>
             <a href="https://github.com/ycrao/markdoc-viewer"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-7.png"></div><p>MarkdocViewer</p></a>
-            <a href="https://ystatic.cn/douyasi/work" class="layer_open" data-title="作品"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-4.png"></div><p>作品</p></a>
+            <a href="http://douyasi.com/work.html"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-4.png"></div><p>作品</p></a>
             <a href="https://about.me/raoyc"><div><img width="120px" height="120px" src="https://yas.ystatic.cn/41345695beaa9b2e/img/scenery-6.png"></div><p>about.me</p></a>
         </div>
     </div>
@@ -51,33 +50,15 @@
                 <li><a href="http://t.qq.com/puppytony"><i class="fa fa-tencent-weibo"></i></a></li>
                 <li><a href="http://weibo.com/douyasi"><i class="fa fa-weibo"></i></a></li>
             </ul>
-            <p class="copyright">&copy;2011-2016. raoyc.com 版权所有</p>
+            <p class="copyright">&copy;2011-2017. raoyc.com 版权所有</p>
         </div>
     </div>
     <script type="text/javascript">
 
-$(document).ready(function(){
+$(document).ready(function() {
 
     console.log('Hello, Welcome to raoyc.com !');
-    $('a.layer_open').on('click', function(evt){
-        evt.preventDefault();
-        var src = $(this).attr("href");
-        var title = $(this).data('title');
-        var width = $(window).width();
-        if(width > 680) {
-            width = 680
-        } else {
-            width = 320;
-        }
-        layer.open({
-            type: 2,
-            title: title,
-            shadeClose: true,
-            shade: 0.8,
-            area: [ width+'px', '90%'],
-            content: src //iframe的url
-        });
-    });
+
 });
     </script>
 </body>
