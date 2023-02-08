@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/pure/3.0.0/pure.min.css" rel="stylesheet">
+    <title>demo</title>
+</head>
+<body>
+    <style>
+        .container {
+            width: 960px;
+            margin: 50px auto;
+        }
+    </style>
+    <div class="container">
+        <h2>省市县三级联动效果</h2>
+        <div class="address-selector"></div>
+        省级：<select id="provinceName" title="province" onchange="changeProvince(this)">
+            <option value="-1">--请选择--</option>
+        </select>
+        市级：<select id="cityName" title="city" onchange="changeCity(this)">
+            <option value="-1">--请选择--</option>
+        </select>
+        县级：<select id="countyName" title="countyOrDistrict">
+            <option value="-1">--请选择--</option>
+        </select>
+        </div>
+    </div>
+    <script type="text/javascript" src="divisions.js"></script>
+    <script type="text/javascript">
+
+function getProvinces() {
+  let provinceArr = []
+  divisions.forEach((v, i) => {
+    provinceArr.push({id:v.i, name:v.n})
+  })
+  return provinceArr
+}
+
+function getCity(code) {
+  let pCode = code.substring(0, 2) + '0000'
+  let cityArr = []
+  divisions.forEach((el) => {
+    if (el.i == pCode) {
+      el.c.forEach((c) => {
+        cityArr.push({id: c.i, name: c.n})
+      })
+    }
+  })
+  return cityArr
+}
+
+function getCounty(code) {
+  let pCode = code.substring(0, 2) + '0000'
+  let cCode = code.substring(0, 4) + '00'
+  let tmpCityArr = []
+  let tmpDistrictArr = []
+  divisions.forEach((v) => {
+    if (v.i == pCode) {
+      tmpCityArr = v.c
+    }
+  })
+  tmpCityArr.forEach((v) => {
+    if (v.i == cCode) {
+      tmpDistrictArr = v.d
+    }
+  })
+  let countyArr = []
+  tmpDistrictArr.forEach((v) => {
+    countyArr.push({id: v.i, name: v.n})
+  })
+  return countyArr
+}
+var provinceEl = document.getElementById("provinceName");
+var cityEl = document.getElementById("cityName");
+var countyEl = document.getElementById('countyName');
+
+// init provinces
+const provincesArr = getProvinces()
+provincesArr.forEach((el) => {
+    let option = new Option(el.name, el.id)
+    provinceEl.appendChild(option)
+})
+
+changeProvince = (e) => {
+    let provinceCode = e.value
+    if (provinceCode != -1) {
+        cityEl.options.length = 1
+        countyEl.options.length = 1
+        const citiesArr = getCity(provinceCode)
+        citiesArr.forEach((el) => {
+            let option = new Option(el.name, el.id)
+            cityEl.appendChild(option)
+        })
+    }
+}
+changeCity = (e) => {
+    let cityCode = e.value
+    if (cityCode != -1) {
+        countyEl.options.length = 1
+        const citiesArr = getCounty(cityCode)
+        citiesArr.forEach((el) => {
+            let option = new Option(el.name, el.id)
+            countyEl.appendChild(option)
+        })
+    }
+}
+    </script>
+</body>
+</html>
