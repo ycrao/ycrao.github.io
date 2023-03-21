@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <title>飞扬小工具软件</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <script type="text/javascript">
-    var host = "raoyc.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-    </script>
-    <link rel="stylesheet" type="text/css" href="//s1.ystatic.cn/41345695beaa9b2e/css/github-markdown.css">
-    <script src="//s1.ystatic.cn/lib/marked/marked.js"></script>
-    <script src="//s1.ystatic.cn/lib/highlight.js/highlight.pack.js?v=9.6.0"></script>
-    <link href="//s1.ystatic.cn/lib/highlight.js/styles/github.css?v=9.6.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/markdoc-viewer/css/github-markdown-light.css" />
+    <script src="/js/force-https.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css" rel="stylesheet" />
 </head>
 <body>
 <div class="markdown-body" id="content">
@@ -42,19 +38,18 @@ function http_get(url) {
             marked.setOptions({
                 renderer: renderer,
                 gfm: true,
-                tables: true,
                 breaks: false,
                 pedantic: false,
-                sanitize: true,
+                // sanitize: false, // deprecated
                 smartLists: true,
                 smartypants: false,
                 langPrefix: 'language-',
-                //这里使用了highlight对代码进行高亮显示
+                // 这里使用了highlight对代码进行高亮显示
                 highlight: function (code) {
                     return hljs.highlightAuto(code).value;
                 }
             });
-            document.getElementById('content').innerHTML = marked(xmlHttp.responseText);
+            document.getElementById('content').innerHTML = marked.parse(xmlHttp.responseText);
         }
     };
     xmlHttp.open("GET", url, true);

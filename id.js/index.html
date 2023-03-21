@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/id.js/css/bootstrap.min.css">
     <style type="text/css">
         .jsonview{font-family:monospace;font-size:1.1em;white-space:pre-wrap}.jsonview .prop{font-weight:700;text-decoration:none;color:#000}.jsonview .null,.jsonview .undefined{color:red}.jsonview .bool,.jsonview .num{color:#00f}.jsonview .string{color:green;white-space:pre-wrap}.jsonview .string.multiline{display:inline-block;vertical-align:text-top}.jsonview .collapser{position:absolute;left:-1em;cursor:pointer}.jsonview .collapsible{transition:height 1.2s;transition:width 1.2s}.jsonview .collapsible.collapsed{height:.8em;width:1em;display:inline-block;overflow:hidden;margin:0}.jsonview .collapsible.collapsed:before{content:"…";width:1em;margin-left:.2em}.jsonview .collapser.collapsed{transform:rotate(0)}.jsonview .q{display:inline-block;width:0;color:transparent}.jsonview li{position:relative}.jsonview ul{list-style:none;margin:0 0 0 2em;padding:0}.jsonview h1{font-size:1.2em}
     </style>
-    <script type="text/javascript" src="./id.min.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.jsonview.min.js"></script>
+    <script type="text/javascript" src="/js/force-https.js"></script>
+    <script type="text/javascript" src="/id.js/id.min.js"></script>
+    <script type="text/javascript" src="/id.js/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/id.js/js/jquery.jsonview.min.js"></script>
     <title>Identity Card Demo</title>
 </head>
 <body>
@@ -31,21 +32,10 @@
         </div>
 
     <script>
-function request(key, val) {
-    var val = (arguments[1] === undefined) ? null : arguments[1];
-    var query = window.location.search.substring(1);
-    var vars = query.split('&');
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
-        if (pair[0] == key) {
-            return pair[1];
-        }
-    }
-    if ((typeof val == 'string') && (val.constructor == String)) {
-        return (val === '') ? (false) : val;
-    } else {
-        return (false);
-    }
+// using modern api
+function request(key, defaultValue) {
+  var params = new URLSearchParams(window.location.search);
+  return params.has(key) ? params.get(key) : defaultValue;
 }
 var IdCard = request('identity', '42032319930606629x');
 document.getElementById('identity').value = IdCard;
