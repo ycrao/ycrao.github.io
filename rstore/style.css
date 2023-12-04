@@ -1,0 +1,133 @@
+:root {
+    --divider-color: #545454;
+    --container-background: #1c1c1c;
+    --description-color: #a9a9a9;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+body {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    -webkit-font-smoothing: antialiased;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--container-background);
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--divider-color);
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #eee;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    border-bottom: 1px dotted #666;
+    font-weight: 300;
+}
+.notice {
+    color: var(--description-color);
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    /*
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    */
+    margin-top: 20px;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.grid-item > .item-icon {
+    width: 120px;
+}
+.grid-item > .item-intro {
+    color: var(--description-color);
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.grid-item > .item-download {
+    width: 100px;
+}
+.item-intro h4 {
+    font-size: 16px;
+    color: #ffbe50;
+    margin: 0;
+}
+h4 > sup {
+    color: #ebebeb;
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d2d2d2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #0096ff;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d2d2d2;
+    background-color: var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 100px;
+}
+.footer {
+    margin-top: 20px;
+}
+.copyright {
+    font-size:16px;
+    color: #ff7e79;
+}
+a {
+    color: #ebebeb;
+    text-decoration: underline;
+}
+a:visited {
+    color: #d6d6d6;
+    text-decoration: none;
+}

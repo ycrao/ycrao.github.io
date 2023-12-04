@@ -1,0 +1,105 @@
+{
+    "title":"rStore -  App for Scriptable",
+    "modules":[
+        {
+            "name":"cache.module",
+            "filename":"cache.module.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/cache.module.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/cache.module.js",
+            "icon": "./icons/cache-module.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"缓存组件 - 基础模块，必须安装！"
+        },
+        {
+            "name":"http.module",
+            "filename":"http.module.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/http.module.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/http.module.js",
+            "icon": "./icons/http-module.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"网络请求组件 - 基础模块，必须安装！"
+        },
+        {
+            "name": "spark-md5.min",
+            "filename": "spark-md5.min.js",
+            "raw_file_url": "https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/spark-md5.min.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/spark-md5.min.js",
+            "icon": "./icons/hash.png",
+            "author": "satazor",
+            "version": "3.0.2",
+            "description": "MD5哈希算法 - 基础模块，必须安装！"
+        }
+    ],
+    "widgets":[
+        {
+            "name":"zhihuHot",
+            "chinese_name":"知乎热榜",
+            "filename":"zhihuHot.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/zhihuHot.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/zhihuHot.js",
+            "icon": "./icons/zhihu.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"展示知乎热榜消息，可点击跳转到知乎App查看。",
+            "dependences": [
+                "spark-md5.min",
+                "cache.module",
+                "http.module"
+            ]
+        },
+        {
+            "name":"dogDiary",
+            "chinese_name":"舔狗日记",
+            "filename":"dogDiary.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/dogDiary.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/dogDiary.js",
+            "icon": "./icons/dog-diary.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"记录舔狗的心路历程。",
+            "dependences": []
+        },
+        {
+            "name":"priceReminder",
+            "chinese_name":"贵金属价格提醒",
+            "filename":"priceReminder.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/priceReminder.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/priceReminder.js",
+            "icon": "./icons/reminder.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"数据来自新浪财经，展示黄金白银价格，后期可定制基金与股票价格。",
+            "dependences": []
+        },
+        {
+            "name":"acgGirl",
+            "chinese_name":"ACG二次元图库",
+            "filename":"acgGirl.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/acgGirl.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/acgGirl.js",
+            "icon": "./icons/acg.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"肥宅的最爱，挑选二次元赛博女友。",
+            "dependences": [
+                "http.module"
+            ]
+        },
+        {
+            "name":"videoHelper",
+            "chinese_name":"视频助手",
+            "filename":"videoHelper.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/videoHelper.js",
+            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/videoHelper.js",
+            "icon": "./icons/douyin-tiktok.png",
+            "author":"ycrao",
+            "version":"1.0.0",
+            "description":"当前仅支持抖音与tiktok短视频下载。",
+            "dependences": [
+                "http.module"
+            ]
+        }
+    ]
+}
