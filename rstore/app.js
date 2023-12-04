@@ -16,7 +16,7 @@ fetch('./app.json').then(res => res.json()).then((appData) => {
     moduleItem.className ='grid-item'
     moduleItem.innerHTML = `
       <div class="item-icon">
-        <img src="${module.icon}" class="icon" title="${module.name}" alt="${module.name}">
+          <img src="${module.icon}" class="icon" title="${module.name}" alt="${module.name}">
       </div>
       <div class="item-intro">
         <h4>${module.name} <sup title="version">v${module.version}</sup></h4>
@@ -38,14 +38,16 @@ fetch('./app.json').then(res => res.json()).then((appData) => {
     widgetItem.className ='grid-item'
     widgetItem.innerHTML = `
       <div class="item-icon">
-        <img src="${widget.icon}" class="icon" title="${widget.chinese_name}" alt="${widget.name}">
+        <a href="./preview.html?urls=${widget.previews}">
+          <img src="${widget.icon}" class="icon" title="${widget.chinese_name}" alt="${widget.name}">
+        </a>
       </div>
       <div class="item-intro">
         <h4>${widget.name} <sup title="version">v${widget.version}</sup></h4>
         <p><strong>${widget.chinese_name}</strong> - ${widget.description}</p>
       </div>
       <div class="item-download">
-        <button class="btn btn-primary btn-install" data-file="${widget.name}${widget.filename}|${widget.version}|${widget.backup_raw_file_url}">安装</button>
+        <button class="btn btn-primary btn-install" data-file="${widget.name}|${widget.filename}|${widget.version}|${widget.backup_raw_file_url}">安装</button>
       </div>
     `
     waEl.innerHTML += widgetItem.outerHTML
