@@ -46,6 +46,7 @@ body {
 .notice {
     color: var(--description-color);
     font-size: 16px;
+    width: 400px;
 }
 
 .grid {
@@ -60,19 +61,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
 }
 .grid-item > .item-icon {
-    width: 120px;
+    width: 80px;
 }
 .grid-item > .item-intro {
     color: var(--description-color);
-    width: 300px;
+    width: 220px;
     font-size: 14px;
     font-weight: 400;
 }
 .grid-item > .item-download {
-    width: 100px;
+    width: 60px;
 }
 .item-intro h4 {
     font-size: 16px;
@@ -86,8 +87,8 @@ h4 > sup {
 }
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
     border-width: 1px;
     border-style: solid;
     border-color: #d2d2d2;
@@ -100,8 +101,8 @@ h4 > sup {
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
@@ -114,7 +115,7 @@ h4 > sup {
 }
 
 .icon img {
-    width: 100px;
+    width: 60px;
 }
 .footer {
     margin-top: 20px;
