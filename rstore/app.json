@@ -44,7 +44,7 @@
             ],
             "icon":"./icons/zhihu.png",
             "author":"ycrao",
-            "version":"1.1",
+            "version":"1.2",
             "description":"展示知乎热榜消息，可点击跳转到知乎App查看。",
             "dependencies":[
                 "spark-md5.min",
