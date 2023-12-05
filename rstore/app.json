@@ -5,8 +5,8 @@
             "name":"cache.module",
             "filename":"cache.module.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/cache.module.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/cache.module.js",
-            "icon": "./icons/cache-module.png",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/cache.module.js",
+            "icon":"./icons/cache-module.png",
             "author":"ycrao",
             "version":"1.1",
             "description":"缓存组件 - 基础模块，必须安装！"
@@ -15,21 +15,21 @@
             "name":"http.module",
             "filename":"http.module.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/http.module.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/http.module.js",
-            "icon": "./icons/http-module.png",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/http.module.js",
+            "icon":"./icons/http-module.png",
             "author":"ycrao",
             "version":"1.1",
             "description":"网络请求组件 - 基础模块，必须安装！"
         },
         {
-            "name": "spark-md5.min",
-            "filename": "spark-md5.min.js",
-            "raw_file_url": "https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/spark-md5.min.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/spark-md5.min.js",
-            "icon": "./icons/hash.png",
-            "author": "satazor",
-            "version": "3.0.2",
-            "description": "MD5哈希算法 - 基础模块，必须安装！"
+            "name":"spark-md5.min",
+            "filename":"spark-md5.min.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/spark-md5.min.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/spark-md5.min.js",
+            "icon":"./icons/hash.png",
+            "author":"satazor",
+            "version":"3.0.2",
+            "description":"MD5哈希算法 - 基础模块，必须安装！"
         }
     ],
     "widgets":[
@@ -38,15 +38,15 @@
             "chinese_name":"知乎热榜",
             "filename":"zhihuHot.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/zhihuHot.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/zhihuHot.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/zhihuHot.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/zhihuHot.png"
             ],
-            "icon": "./icons/zhihu.png",
+            "icon":"./icons/zhihu.png",
             "author":"ycrao",
             "version":"1.1",
             "description":"展示知乎热榜消息，可点击跳转到知乎App查看。",
-            "dependencies": [
+            "dependencies":[
                 "spark-md5.min",
                 "cache.module",
                 "http.module"
@@ -57,46 +57,50 @@
             "chinese_name":"舔狗日记",
             "filename":"dogDiary.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/dogDiary.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/dogDiary.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/dogDiary.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/dogDiary.png"
             ],
-            "icon": "./icons/dog-diary.png",
+            "icon":"./icons/dog-diary.png",
             "author":"ycrao",
             "version":"1.1",
             "description":"记录舔狗的心路历程。",
-            "dependencies": []
+            "dependencies":[
+
+            ]
         },
         {
             "name":"priceReminder",
             "chinese_name":"贵金属价格提醒",
             "filename":"priceReminder.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/priceReminder.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/priceReminder.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/priceReminder.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/priceReminder.png"
             ],
-            "icon": "./icons/reminder.png",
+            "icon":"./icons/reminder.png",
             "author":"ycrao",
             "version":"1.1",
             "description":"数据来自新浪财经，展示黄金白银价格，后期可定制基金与股票价格。",
-            "dependencies": []
+            "dependencies":[
+
+            ]
         },
         {
             "name":"acgGirl",
             "chinese_name":"ACG二次元图库",
             "filename":"acgGirl.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/acgGirl.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/acgGirl.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/acgGirl.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/acgGirl.png",
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/acgGirl_config.png"
             ],
-            "icon": "./icons/acg.png",
+            "icon":"./icons/acg.png",
             "author":"ycrao",
-            "version":"1.1",
+            "version":"1.2",
             "description":"肥宅的最爱，挑选二次元赛博女友。",
-            "dependencies": [
+            "dependencies":[
                 "http.module"
             ]
         },
@@ -105,17 +109,17 @@
             "chinese_name":"视频助手",
             "filename":"videoHelper.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/videoHelper.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/videoHelper.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/videoHelper.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/DownloadVideo_shortcut_qrcode.png",
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/videoHelper_flow.png",
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/videoHelper_flow2.png"
             ],
-            "icon": "./icons/douyin-tiktok.png",
+            "icon":"./icons/douyin-tiktok.png",
             "author":"ycrao",
             "version":"1.3",
             "description":"当前仅支持抖音与tiktok短视频下载。",
-            "dependencies": [
+            "dependencies":[
                 "http.module"
             ]
         },
@@ -124,16 +128,33 @@
             "chinese_name":"每日诗词",
             "filename":"poetry.js",
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/poetry.js",
-            "backup_raw_file_url": "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/poetry.js",
-            "previews": [
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/poetry.js",
+            "previews":[
                 "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/poetry.png"
             ],
-            "icon": "./icons/poetry.png",
+            "icon":"./icons/poetry.png",
             "author":"ycrao",
             "version":"1.3",
             "description":"数据来自一言，展示中国古典诗词名句。",
-            "dependencies": [
+            "dependencies":[
                 "http.module"
+            ]
+        },
+        {
+            "name":"acgPPT",
+            "chinese_name":"动漫游PPT",
+            "filename":"acgPPT.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/acgPPT.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/acgPPT.js",
+            "previews":[
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/acgPPT.gif"
+            ],
+            "icon":"./icons/ppt.png",
+            "author":"ycrao",
+            "version":"1.0",
+            "description":"如PPT一般动态切换ACG相关主题图片集。",
+            "dependencies":[
+
             ]
         }
     ]
