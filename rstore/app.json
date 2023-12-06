@@ -156,6 +156,23 @@
             "dependencies":[
 
             ]
+        },
+        {
+            "name":"todayHistory",
+            "chinese_name":"历史上的今天",
+            "filename":"todayHistory.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/todayHistory.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/todayHistory.js",
+            "previews":[
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/todayHistory.png"
+            ],
+            "icon":"./icons/history.png",
+            "author":"ycrao",
+            "version":"1.0",
+            "description":"以榜单形式展示历史上的今天旧闻。",
+            "dependencies":[
+
+            ]
         }
     ]
 }
