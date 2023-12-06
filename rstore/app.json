@@ -181,7 +181,8 @@
             "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/showPhoto.js",
             "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/showPhoto.js",
             "previews":[
-                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/showPhoto.png"
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/showPhoto_1.png",
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/showPhoto_2.png"
             ],
             "icon":"./icons/photo.png",
             "author":"ycrao",
