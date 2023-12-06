@@ -173,6 +173,24 @@
             "dependencies":[
 
             ]
+        },
+        {
+            "name":"showPhoto",
+            "chinese_name":"秀相册",
+            "filename":"showPhoto.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/showPhoto.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/showPhoto.js",
+            "previews":[
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/showPhoto.png"
+            ],
+            "icon":"./icons/photo.png",
+            "author":"ycrao",
+            "version":"1.0",
+            "description":"第一次运行需要选中本地相册图片，后续从缓存中读取，并在 widget 中展示。",
+            "dependencies":[
+                "cache.module",
+                "spark-md5.min"
+            ]
         }
     ]
 }
