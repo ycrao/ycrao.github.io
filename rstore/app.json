@@ -186,7 +186,7 @@
             ],
             "icon":"./icons/photo.png",
             "author":"ycrao",
-            "version":"1.0",
+            "version":"1.1",
             "description":"第一次运行需要选中本地相册图片，后续从缓存中读取，并在 widget 中展示。",
             "dependencies":[
                 "cache.module",
