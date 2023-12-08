@@ -192,6 +192,23 @@
                 "cache.module",
                 "spark-md5.min"
             ]
+        },
+        {
+            "name":"iLottery",
+            "chinese_name":"爱彩票",
+            "filename":"iLottery.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/iLottery.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/iLottery.js",
+            "previews":[
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/iLottery.png"
+            ],
+            "icon":"./icons/lottery.png",
+            "author":"ycrao",
+            "version":"1.1",
+            "description":"展示中国彩票（大乐透与双色球）开奖结果。",
+            "dependencies":[
+                
+            ]
         }
     ]
 }
