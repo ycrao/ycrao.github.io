@@ -34,6 +34,23 @@
     ],
     "widgets":[
         {
+            "name":"IPTV",
+            "chinese_name":"网络电视",
+            "filename":"IPTV.js",
+            "raw_file_url":"https://raw.githubusercontent.com/ycrao/scripts-for-scriptable/main/app/IPTV.js",
+            "backup_raw_file_url":"https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/app/IPTV.js",
+            "previews":[
+                "https://cdn.jsdelivr.net/gh/ycrao/scripts-for-scriptable/screenshot/watching-iptv.png"
+            ],
+            "icon":"./icons/iptv.png",
+            "author":"ycrao",
+            "version":"1.0",
+            "description":"手机在线看电视，默认内置源在 IPv6 网络下使用最佳",
+            "dependencies":[
+                "http.module"
+            ]
+        },
+        {
             "name":"zhihuHot",
             "chinese_name":"知乎热榜",
             "filename":"zhihuHot.js",
