@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="referrer" content="no-referrer">
+    <title>dplayer</title>
+    <style>
+      html, body {width:80%;height:80%;margin:auto;overflow:hidden;}
+    </style>
+  </head>
+  <body>
+    <h3></h3>
+    <div id="dplayer">
+    </div>
+    <script src="https://raoyc.com/svtv/static/lib/vconsole/vconsole.min.js"></script>
+    <script src="https://raoyc.com/svtv/static/lib/flv.js/flv.min.js"></script>
+    <script src="https://raoyc.com/svtv/static/lib/hls.js/hls.min.js"></script>
+    <script src="https://raoyc.com/svtv/static/lib/dplayer/DPlayer.min.js"></script>
+    <script>
+      const vConsole = new window.VConsole();
+      const request = (key, defaultValue) => {
+        const params = new URLSearchParams(window.location.search);
+        return params.has(key) ? params.get(key) : defaultValue;
+      }
+      const parseMediaUrl = (mediaUrl) => {
+        if (mediaUrl.indexOf('$') > 0) {
+          const urls = mediaUrl.split('$')
+          mediaUrl = urls[0]
+        }
+        return mediaUrl
+      }
+      let mediaUrl = request('url', '')
+      if (mediaUrl === '') {
+        document.querySelector('h3').innerText = '[error]未获取到媒体文件'
+      } else {
+        document.querySelector('h3').innerText = request('channel', '')
+      }
+      mediaUrl = parseMediaUrl(mediaUrl)
+      const config = {
+        container: document.getElementById('dplayer'),
+        autoplay: true,
+        airplay: true,
+        chromecast: true,
+        volume: 0.7,
+        video: {
+          url: mediaUrl
+        }
+      }
+      if (mediaUrl.endsWith('.flv')) {
+        // is flv ?
+        config.video.type = 'flv'
+      } else if (mediaUrl.indexOf('.m3u8') > 0) {
+        // is hls ?
+        config.video.type = 'hls'
+        config.live = true
+      }
+      const dp = new DPlayer(config);
+    </script>
+  </body>
+</html>

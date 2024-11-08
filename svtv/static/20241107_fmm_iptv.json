@@ -1,0 +1,2272 @@
+[
+    {
+        "name": "\u592e\u89c6\u9891\u9053",
+        "channels": [
+            {
+                "name": "CCTV-1 \u7efc\u5408",
+                "logo": "https://live.fanmingming.com/tv/CCTV1.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV1"
+                }
+            },
+            {
+                "name": "CCTV-2 \u8d22\u7ecf",
+                "logo": "https://live.fanmingming.com/tv/CCTV2.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV2"
+                }
+            },
+            {
+                "name": "CCTV-3 \u7efc\u827a",
+                "logo": "https://live.fanmingming.com/tv/CCTV3.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV3"
+                }
+            },
+            {
+                "name": "CCTV-4 \u4e2d\u6587\u56fd\u9645",
+                "logo": "https://live.fanmingming.com/tv/CCTV4.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV4"
+                }
+            },
+            {
+                "name": "CCTV-5 \u4f53\u80b2",
+                "logo": "https://live.fanmingming.com/tv/CCTV5.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV5"
+                }
+            },
+            {
+                "name": "CCTV-5+ \u4f53\u80b2\u8d5b\u4e8b",
+                "logo": "https://live.fanmingming.com/tv/CCTV5+.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV5+"
+                }
+            },
+            {
+                "name": "CCTV-6 \u7535\u5f71",
+                "logo": "https://live.fanmingming.com/tv/CCTV6.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV6"
+                }
+            },
+            {
+                "name": "CCTV-7 \u56fd\u9632\u519b\u4e8b",
+                "logo": "https://live.fanmingming.com/tv/CCTV7.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV7"
+                }
+            },
+            {
+                "name": "CCTV-8 \u7535\u89c6\u5267",
+                "logo": "https://live.fanmingming.com/tv/CCTV8.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV8"
+                }
+            },
+            {
+                "name": "CCTV-9 \u7eaa\u5f55",
+                "logo": "https://live.fanmingming.com/tv/CCTV9.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV9"
+                }
+            },
+            {
+                "name": "CCTV-10 \u79d1\u6559",
+                "logo": "https://live.fanmingming.com/tv/CCTV10.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV10"
+                }
+            },
+            {
+                "name": "CCTV-11 \u620f\u66f2",
+                "logo": "https://live.fanmingming.com/tv/CCTV11.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV11"
+                }
+            },
+            {
+                "name": "CCTV-12 \u793e\u4f1a\u4e0e\u6cd5",
+                "logo": "https://live.fanmingming.com/tv/CCTV12.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV12"
+                }
+            },
+            {
+                "name": "CCTV-13 \u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/CCTV13.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV13"
+                }
+            },
+            {
+                "name": "CCTV-14 \u5c11\u513f",
+                "logo": "https://live.fanmingming.com/tv/CCTV14.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV14"
+                }
+            },
+            {
+                "name": "CCTV-15 \u97f3\u4e50",
+                "logo": "https://live.fanmingming.com/tv/CCTV15.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV15"
+                }
+            },
+            {
+                "name": "CCTV-16 \u5965\u6797\u5339\u514b",
+                "logo": "https://live.fanmingming.com/tv/CCTV16.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV16"
+                }
+            },
+            {
+                "name": "CCTV-17 \u519c\u4e1a\u519c\u6751",
+                "logo": "https://live.fanmingming.com/tv/CCTV17.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CCTV17"
+                }
+            },
+            {
+                "name": "CGTN\u82f1\u8bed",
+                "logo": "https://live.fanmingming.com/tv/CGTN.png",
+                "url": "https://0472.org/hls/cgtn.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtn.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN"
+                }
+            },
+            {
+                "name": "CGTN\u8bb0\u5f55",
+                "logo": "https://live.fanmingming.com/tv/CGTN\u7eaa\u5f55.png",
+                "url": "https://0472.org/hls/cgtnd.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtnd.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN\u7eaa\u5f55"
+                }
+            },
+            {
+                "name": "CGTN\u4fc4\u8bed",
+                "logo": "https://live.fanmingming.com/tv/CGTN\u4fc4\u8bed.png",
+                "url": "https://0472.org/hls/cgtne.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtne.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN\u4fc4\u8bed"
+                }
+            },
+            {
+                "name": "CGTN\u6cd5\u8bed",
+                "logo": "https://live.fanmingming.com/tv/CGTN\u6cd5\u8bed.png",
+                "url": "https://0472.org/hls/cgtnf.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtnf.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN\u6cd5\u8bed"
+                }
+            },
+            {
+                "name": "CGTN\u897f\u8bed",
+                "logo": "https://live.fanmingming.com/tv/CGTN\u897f\u8bed.png",
+                "url": "https://0472.org/hls/cgtnx.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtnx.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN\u897f\u8bed"
+                }
+            },
+            {
+                "name": "CGTN\u963f\u8bed",
+                "logo": "https://live.fanmingming.com/tv/CGTN\u963f\u8bed.png",
+                "url": "https://0472.org/hls/cgtna.m3u8",
+                "category": "\u592e\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://0472.org/hls/cgtna.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "CGTN\u963f\u8bed"
+                }
+            }
+        ]
+    },
+    {
+        "name": "\u536b\u89c6\u9891\u9053",
+        "channels": [
+            {
+                "name": "\u5317\u4eac\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5317\u4eac\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5317\u4eac\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6e56\u5357\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6e56\u5357\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6e56\u5357\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u4e1c\u65b9\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u4e1c\u65b9\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e1c\u65b9\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u56db\u5ddd\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u56db\u5ddd\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u56db\u5ddd\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5929\u6d25\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5929\u6d25\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5929\u6d25\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5b89\u5fbd\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5b89\u5fbd\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5b89\u5fbd\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5c71\u4e1c\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5c71\u4e1c\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5c71\u4e1c\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6df1\u5733\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6df1\u5733\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6df1\u5733\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5e7f\u4e1c\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5e7f\u4e1c\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5e7f\u4e1c\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5e7f\u897f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5e7f\u897f\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5e7f\u897f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6c5f\u82cf\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6c5f\u82cf\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c5f\u82cf\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6c5f\u897f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6c5f\u897f\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c5f\u897f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6cb3\u5317\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6cb3\u5317\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6cb3\u5317\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6cb3\u5357\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6cb3\u5357\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6cb3\u5357\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6d77\u5357\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6d77\u5357\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d77\u5357\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u6e56\u5317\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u6e56\u5317\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6e56\u5317\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5c71\u897f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5c71\u897f\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021220/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021220/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5c71\u897f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u4e1c\u5357\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u4e1c\u5357\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e1c\u5357\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u8d35\u5dde\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u8d35\u5dde\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u8d35\u5dde\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u8fbd\u5b81\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u8fbd\u5b81\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u8fbd\u5b81\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u91cd\u5e86\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u91cd\u5e86\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u91cd\u5e86\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u9ed1\u9f99\u6c5f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u9ed1\u9f99\u6c5f\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9ed1\u9f99\u6c5f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5185\u8499\u53e4\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u536b\u89c6.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5b81\u590f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5b81\u590f\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226454/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226454/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5b81\u590f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u9655\u897f\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u9655\u897f\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000007495/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000007495/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9655\u897f\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5409\u6797\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5409\u6797\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5409\u6797\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u7518\u8083\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u7518\u8083\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u7518\u8083\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u4e91\u5357\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u4e91\u5357\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e91\u5357\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u4e09\u6c99\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u4e09\u6c99\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e09\u6c99\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u9752\u6d77\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u9752\u6d77\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9752\u6d77\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u65b0\u7586\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u65b0\u7586\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u65b0\u7586\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u897f\u85cf\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u897f\u85cf\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/6603041244077933770/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/6603041244077933770/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u897f\u85cf\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5175\u56e2\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5175\u56e2\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5175\u56e2\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5ef6\u8fb9\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5ef6\u8fb9\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5ef6\u8fb9\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5b89\u591a\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5b89\u591a\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5b89\u591a\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u53a6\u95e8\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u53a6\u95e8\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266006/1.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266006/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u53a6\u95e8\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5eb7\u5df4\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5eb7\u5df4\u536b\u89c6.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5eb7\u5df4\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u5927\u6e7e\u533a\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5927\u6e7e\u533a\u536b\u89c6.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5927\u6e7e\u533a\u536b\u89c6"
+                }
+            },
+            {
+                "name": "CETV-1",
+                "logo": "https://live.fanmingming.com/tv/CETV1.png",
+                "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e2d\u56fd\u6559\u80b21\u53f0"
+                }
+            },
+            {
+                "name": "CETV-2",
+                "logo": "https://live.fanmingming.com/tv/CETV2.png",
+                "url": "http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e2d\u56fd\u6559\u80b22\u53f0"
+                }
+            },
+            {
+                "name": "CETV-4",
+                "logo": "https://live.fanmingming.com/tv/CETV4.png",
+                "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8",
+                "category": "\u536b\u89c6\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e2d\u56fd\u6559\u80b24\u53f0"
+                }
+            }
+        ]
+    },
+    {
+        "name": "\u6570\u5b57\u9891\u9053",
+        "channels": [
+            {
+                "name": "\u7eaa\u5b9e\u4eba\u6587",
+                "logo": "https://live.fanmingming.com/tv/\u7eaa\u5b9e\u4eba\u6587.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e0a\u6d77\u7eaa\u5b9e\u4eba\u6587"
+                }
+            },
+            {
+                "name": "\u7eaa\u5b9e\u79d1\u6559",
+                "logo": "https://live.fanmingming.com/tv/\u5317\u4eac\u7eaa\u5b9e\u79d1\u6559.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u7eaa\u5b9e\u79d1\u6559"
+                }
+            },
+            {
+                "name": "\u52b2\u7206\u4f53\u80b2",
+                "logo": "https://live.fanmingming.com/tv/\u52b2\u7206\u4f53\u80b2.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u52b2\u7206\u4f53\u80b2"
+                }
+            },
+            {
+                "name": "\u4e50\u6e38\u9891\u9053",
+                "logo": "https://live.fanmingming.com/tv/\u4e50\u6e38.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031112/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031112/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5168\u7eaa\u5b9e"
+                }
+            },
+            {
+                "name": "\u6b22\u7b11\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/\u6b22\u7b11\u5267\u573a.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6b22\u7b11\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u90fd\u5e02\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/\u90fd\u5e02\u5267\u573a.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031111/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031111/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u90fd\u5e02\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u91d1\u8272\u5b66\u5802",
+                "logo": "https://live.fanmingming.com/tv/\u91d1\u8272\u5b66\u5802.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000026105/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000026105/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u91d1\u8272\u5b66\u5802"
+                }
+            },
+            {
+                "name": "\u5361\u9177\u5c11\u513f",
+                "logo": "https://live.fanmingming.com/tv/\u5361\u9177\u5c11\u513f.png",
+                "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5361\u9177\u52a8\u753b"
+                }
+            },
+            {
+                "name": "\u91d1\u9e70\u5361\u901a",
+                "logo": "https://live.fanmingming.com/tv/\u91d1\u9e70\u5361\u901a.png",
+                "url": "http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u91d1\u9e70\u5361\u901a"
+                }
+            },
+            {
+                "name": "\u91d1\u9e70\u7eaa\u5b9e",
+                "logo": "https://live.fanmingming.com/tv/\u91d1\u9e70\u7eaa\u5b9e.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031203/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031203/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u91d1\u9e70\u7eaa\u5b9e"
+                }
+            },
+            {
+                "name": "\u5feb\u4e50\u5782\u9493",
+                "logo": "https://live.fanmingming.com/tv/\u5feb\u4e50\u5782\u9493.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031206/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031206/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5feb\u4e50\u5782\u9493"
+                }
+            },
+            {
+                "name": "\u8336\u53cb\u9891\u9053",
+                "logo": "https://live.fanmingming.com/tv/\u8336.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031209/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031209/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u8336"
+                }
+            },
+            {
+                "name": "\u6e38\u620f\u98ce\u4e91",
+                "logo": "https://live.fanmingming.com/tv/\u6e38\u620f\u98ce\u4e91.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031114/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031114/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6e38\u620f\u98ce\u4e91"
+                }
+            },
+            {
+                "name": "\u52a8\u6f2b\u79c0\u573a",
+                "logo": "https://live.fanmingming.com/tv/\u52a8\u6f2b\u79c0\u573a.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031113/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031113/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u52a8\u6f2b\u79c0\u573a"
+                }
+            },
+            {
+                "name": "\u5609\u4f73\u5361\u901a",
+                "logo": "https://live.fanmingming.com/tv/\u5609\u4f73\u5361\u901a.png",
+                "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000025964/1.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000025964/1.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5609\u4f73\u5361\u901a"
+                }
+            },
+            {
+                "name": "\u54d2\u5575\u8d5b\u4e8b",
+                "logo": "https://live.fanmingming.com/tv/\u54d2\u5575\u8d5b\u4e8b.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u54d2\u5575\u8d5b\u4e8b"
+                }
+            },
+            {
+                "name": "\u54d2\u5575\u7535\u7ade",
+                "logo": "https://live.fanmingming.com/tv/\u54d2\u5575\u7535\u7ade.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000003000000066/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000003000000066&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000003000000066/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000003000000066&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u54d2\u5575\u7535\u7ade"
+                }
+            },
+            {
+                "name": "\u4f18\u6f2b\u5361\u901a",
+                "logo": "https://live.fanmingming.com/tv/\u4f18\u6f2b\u5361\u901a.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4f18\u6f2b\u5361\u901a"
+                }
+            },
+            {
+                "name": "\u54c8\u54c8\u70ab\u52a8",
+                "logo": "https://live.fanmingming.com/tv/\u54c8\u54c8\u70ab\u52a8.png",
+                "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u54c8\u54c8\u70ab\u52a8"
+                }
+            },
+            {
+                "name": "\u9ed1\u8393\u52a8\u753b",
+                "logo": "https://live.fanmingming.com/tv/\u9ed1\u8393\u52a8\u753b.png",
+                "url": "http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9ed1\u8393\u52a8\u753b"
+                }
+            },
+            {
+                "name": "\u9ed1\u8393\u7535\u5f71",
+                "logo": "https://live.fanmingming.com/tv/\u9ed1\u8393\u7535\u5f71.png",
+                "url": "http://[2409:8087:1a0b:df::4014]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4014]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9ed1\u8393\u7535\u5f71"
+                }
+            },
+            {
+                "name": "\u6c42\u7d22\u7eaa\u5f55",
+                "logo": "https://live.fanmingming.com/tv/\u6c42\u7d22\u7eaa\u5f55.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c42\u7d22\u7eaa\u5f55"
+                }
+            },
+            {
+                "name": "\u6c42\u7d22\u751f\u6d3b",
+                "logo": "https://live.fanmingming.com/tv/\u6c42\u7d22\u751f\u6d3b.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c42\u7d22\u751f\u6d3b"
+                }
+            },
+            {
+                "name": "\u6c42\u7d22\u52a8\u7269",
+                "logo": "https://live.fanmingming.com/tv/\u6c42\u7d22\u52a8\u7269.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c42\u7d22\u52a8\u7269"
+                }
+            },
+            {
+                "name": "\u6c42\u7d22\u79d1\u5b66",
+                "logo": "https://live.fanmingming.com/tv/\u6c42\u7d22\u79d1\u5b66.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6c42\u7d22\u79d1\u5b66"
+                }
+            },
+            {
+                "name": "\u8d85\u7ea7\u4f53\u80b2",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u8d85\u7ea7\u4f53\u80b2.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u8d85\u7ea7\u4f53\u80b2"
+                }
+            },
+            {
+                "name": "\u8d85\u7ea7\u7535\u5f71",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u8d85\u7ea7\u7535\u5f71.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u8d85\u7ea7\u7535\u5f71"
+                }
+            },
+            {
+                "name": "\u8d85\u7ea7\u89c6\u5267",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u8d85\u7ea7\u7535\u89c6\u5267.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u8d85\u7ea7\u7535\u89c6\u5267"
+                }
+            },
+            {
+                "name": "\u4e1c\u5317\u70ed\u5267",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u4e1c\u5317\u70ed\u5267.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u4e1c\u5317\u70ed\u5267"
+                }
+            },
+            {
+                "name": "\u6d77\u5916\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u6d77\u5916\u5267\u573a.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u6d77\u5916\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u4e2d\u56fd\u529f\u592b",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u4e2d\u56fd\u529f\u592b.png",
+                "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u4e2d\u56fd\u529f\u592b"
+                }
+            },
+            {
+                "name": "\u519b\u65c5\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u519b\u65c5\u5267\u573a.png",
+                "url": "http://[2409:8087:1a0b:df::4018]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4018]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u519b\u65c5\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u60ca\u609a\u60ac\u7591",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u60ca\u609a\u60ac\u7591.png",
+                "url": "http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u60ca\u609a\u60ac\u7591"
+                }
+            },
+            {
+                "name": "\u6f6e\u5988\u8fa3\u5a46",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u6f6e\u5988\u8fa3\u5a46.png",
+                "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u6f6e\u5988\u8fa3\u5a46"
+                }
+            },
+            {
+                "name": "\u7cbe\u54c1\u4f53\u80b2",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u7cbe\u54c1\u4f53\u80b2.png",
+                "url": "http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u7cbe\u54c1\u4f53\u80b2"
+                }
+            },
+            {
+                "name": "\u7cbe\u54c1\u7eaa\u5f55",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u7cbe\u54c1\u7eaa\u5f55.png",
+                "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u7cbe\u54c1\u7eaa\u5f55"
+                }
+            },
+            {
+                "name": "\u5bb6\u5ead\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u5bb6\u5ead\u5267\u573a.png",
+                "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u5bb6\u5ead\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u7cbe\u54c1\u5927\u5267",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u7cbe\u54c1\u5927\u5267.png",
+                "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u7cbe\u54c1\u5927\u5267"
+                }
+            },
+            {
+                "name": "\u519b\u4e8b\u8bc4\u8bba",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u519b\u4e8b\u8bc4\u8bba.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u519b\u4e8b\u8bc4\u8bba"
+                }
+            },
+            {
+                "name": "\u660e\u661f\u5927\u7247",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u660e\u661f\u5927\u7247.png",
+                "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u660e\u661f\u5927\u7247"
+                }
+            },
+            {
+                "name": "\u6b22\u4e50\u5267\u573a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u6b22\u4e50\u5267\u573a.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u6b22\u4e50\u5267\u573a"
+                }
+            },
+            {
+                "name": "\u7cbe\u54c1\u840c\u5ba0",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u7cbe\u54c1\u840c\u5ba0.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u7cbe\u54c1\u840c\u5ba0"
+                }
+            },
+            {
+                "name": "\u8d85\u7ea7\u7efc\u827a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u8d85\u7ea7\u7efc\u827a.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u8d85\u7ea7\u7efc\u827a"
+                }
+            },
+            {
+                "name": "\u91d1\u724c\u7efc\u827a",
+                "logo": "https://live.fanmingming.com/tv/NEWTV\u91d1\u724c\u7efc\u827a.png",
+                "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8",
+                "category": "\u6570\u5b57\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "newtv\u91d1\u724c\u7efc\u827a"
+                }
+            }
+        ]
+    },
+    {
+        "name": "\u4e0a\u6d77\u9891\u9053",
+        "channels": [
+            {
+                "name": "\u4e0a\u6d77\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u4e0a\u89c6\u65b0\u95fb.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e0a\u6d77\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u4e0a\u6d77\u90fd\u5e02",
+                "logo": "https://live.fanmingming.com/tv/\u4e0a\u6d77\u90fd\u5e02.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e0a\u6d77\u90fd\u5e02"
+                }
+            },
+            {
+                "name": "\u4e0a\u6d77\u5916\u8bed",
+                "logo": "https://live.fanmingming.com/tv/\u4e0a\u6d77\u5916\u8bed.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000001/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000001&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000001/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000001&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e0a\u6d77\u5916\u8bed"
+                }
+            },
+            {
+                "name": "\u4e03\u5f69\u620f\u5267",
+                "logo": "https://live.fanmingming.com/tv/\u4e03\u5f69\u620f\u5267.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000010&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000010&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e03\u5f69\u620f\u5267"
+                }
+            },
+            {
+                "name": "\u4e94\u661f\u4f53\u80b2",
+                "logo": "https://live.fanmingming.com/tv/\u4e94\u661f\u4f53\u80b2.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e94\u661f\u4f53\u80b2"
+                }
+            },
+            {
+                "name": "\u4e1c\u65b9\u5f71\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u4e1c\u65b9\u5f71\u89c6.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e1c\u65b9\u5f71\u89c6"
+                }
+            },
+            {
+                "name": "\u4e1c\u65b9\u8d22\u7ecf",
+                "logo": "https://live.fanmingming.com/tv/\u4e1c\u65b9\u8d22\u7ecf.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e1c\u65b9\u8d22\u7ecf"
+                }
+            },
+            {
+                "name": "\u6cd5\u6cbb\u5929\u5730",
+                "logo": "https://live.fanmingming.com/tv/\u6cd5\u6cbb\u5929\u5730.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6cd5\u6cbb\u5929\u5730"
+                }
+            },
+            {
+                "name": "\u7b2c\u4e00\u8d22\u7ecf",
+                "logo": "https://live.fanmingming.com/tv/\u4e0a\u6d77\u7b2c\u4e00\u8d22\u7ecf.png",
+                "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281",
+                "category": "\u4e0a\u6d77\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u7b2c\u4e00\u8d22\u7ecf"
+                }
+            }
+        ]
+    },
+    {
+        "name": "\u6d59\u6c5f\u9891\u9053",
+        "channels": [
+            {
+                "name": "\u6d59\u6c5f\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u65b0\u95fb.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u516c\u5171\u65b0\u95fb"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u56fd\u9645",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u56fd\u9645.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u56fd\u9645"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u5c11\u513f",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u5c11\u513f.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u5c11\u513f"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u6559\u79d1",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u6559\u79d1\u5f71\u89c6.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u6559\u79d1\u5f71\u89c6"
+                }
+            },
+            {
+                "name": "\u4e4b\u6c5f\u7eaa\u5f55",
+                "logo": "https://live.fanmingming.com/tv/\u4e4b\u6c5f\u7eaa\u5f55.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e4b\u6c5f\u7eaa\u5f55"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u6c11\u751f",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u6c11\u751f\u4f11\u95f2.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u6c11\u751f\u4f11\u95f2"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u7ecf\u6d4e",
+                "logo": "https://live.fanmingming.com/tv/\u6d59\u6c5f\u7ecf\u6d4e\u751f\u6d3b.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u7ecf\u89c6"
+                }
+            },
+            {
+                "name": "\u6d59\u6c5f\u94b1\u6c5f",
+                "logo": "https://live.fanmingming.com/tv/\u94b1\u6c5f\u90fd\u5e02.png",
+                "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
+                "category": "\u6d59\u6c5f\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u6d59\u6c5f\u94b1\u6c5f\u90fd\u5e02"
+                }
+            }
+        ]
+    },
+    {
+        "name": "\u5185\u8499\u9891\u9053",
+        "channels": [
+            {
+                "name": "\u5185\u8499\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=173f71025a2de64458989cfb281a0a37&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=173f71025a2de64458989cfb281a0a37&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u5185\u8499\u7ecf\u6d4e",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u7ecf\u6d4e\u751f\u6d3b.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=8e4b7cf6a2c8a75f74aef1a8a07cef43&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=8e4b7cf6a2c8a75f74aef1a8a07cef43&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u7ecf\u6d4e\u751f\u6d3b"
+                }
+            },
+            {
+                "name": "\u5185\u8499\u5c11\u513f",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u5c11\u513f.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u5c11\u513f"
+                }
+            },
+            {
+                "name": "\u5185\u8499\u6587\u4f53",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u6587\u4f53\u5a31\u4e50.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=82ed51a2a4cbf85b62fec8ef2bfe4529&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=82ed51a2a4cbf85b62fec8ef2bfe4529&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u6587\u4f53\u5a31\u4e50"
+                }
+            },
+            {
+                "name": "\u5185\u8499\u519c\u7267",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u519c\u7267.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=b5e44fcd9473993661f17746112ad1b7&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=b5e44fcd9473993661f17746112ad1b7&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u519c\u7267"
+                }
+            },
+            {
+                "name": "\u8499\u8bed\u536b\u89c6",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u8499\u8bed\u536b\u89c6.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u8499\u8bed\u536b\u89c6"
+                }
+            },
+            {
+                "name": "\u8499\u8bed\u6587\u5316",
+                "logo": "https://live.fanmingming.com/tv/\u5185\u8499\u53e4\u8499\u8bed\u6587\u5316.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=2250268a1d326dbbc4cbf0ba32649ca5&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=2250268a1d326dbbc4cbf0ba32649ca5&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5185\u8499\u53e4\u8499\u8bed\u6587\u5316"
+                }
+            },
+            {
+                "name": "\u547c\u5e02\u65b0\u95fb\u7efc\u5408",
+                "logo": "https://live.fanmingming.com/tv/\u547c\u548c\u6d69\u7279\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2331general.m3u8?txSecret=70072e9dff1f4042fcefde5b001af668&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2331general.m3u8?txSecret=70072e9dff1f4042fcefde5b001af668&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u547c\u548c\u6d69\u7279\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u5305\u5934\u65b0\u95fb\u7efc\u5408",
+                "logo": "https://live.fanmingming.com/tv/\u5305\u5934\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=d5a1fe0898512f4a1d513bc0f9c5b751&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=d5a1fe0898512f4a1d513bc0f9c5b751&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5305\u5934\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u9102\u5c14\u591a\u65af\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u9102\u5c14\u591a\u65af\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2349general.m3u8?txSecret=b7f46f8c1bcd9e2db3aa285e7afd6255&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2349general.m3u8?txSecret=b7f46f8c1bcd9e2db3aa285e7afd6255&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u9102\u5c14\u591a\u65af\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u5df4\u5f66\u6dd6\u5c14\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u5df4\u5f66\u6dd6\u5c14\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=7b16e82a11c42b867ae27383922ef7f9&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=7b16e82a11c42b867ae27383922ef7f9&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u5df4\u5f66\u6dd6\u5c14\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u8d64\u5cf0\u65b0\u95fb\u7efc\u5408",
+                "logo": "https://live.fanmingming.com/tv/\u8d64\u5cf0\u65b0\u95fb\u7efc\u5408.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2351general.m3u8?txSecret=08be8d464e60db2c3aa1e8e7d742f71d&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2351general.m3u8?txSecret=08be8d464e60db2c3aa1e8e7d742f71d&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u8d64\u5cf0\u65b0\u95fb\u7efc\u5408"
+                }
+            },
+            {
+                "name": "\u4e4c\u5170\u5bdf\u5e03\u65b0\u95fb",
+                "logo": "https://live.fanmingming.com/tv/\u4e4c\u5170\u5bdf\u5e03.png",
+                "url": "https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=8bca81250fd7df3b633efcbb6150b0c6&txTime=771E8800",
+                "category": "\u5185\u8499\u9891\u9053",
+                "sources": [
+                    {
+                        "name": "",
+                        "url": "https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=8bca81250fd7df3b633efcbb6150b0c6&txTime=771E8800"
+                    }
+                ],
+                "tvg": {
+                    "id": null,
+                    "name": "\u4e4c\u5170\u5bdf\u5e03\u65b0\u95fb\u7efc\u5408"
+                }
+            }
+        ]
+    }
+]
