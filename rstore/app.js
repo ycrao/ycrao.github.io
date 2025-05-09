@@ -6,7 +6,7 @@ window.invoke = (code, data) => {
     })
   )
 }
-fetch('./app.json?v=2024110817').then(res => res.json()).then((appData) => {
+fetch('./app.json?v=2025050913').then(res => res.json()).then((appData) => {
   const bmEl = document.getElementById('bm-container')
   bmEl.innerHTML = ''
 

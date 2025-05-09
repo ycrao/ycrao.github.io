@@ -134,7 +134,7 @@
             ],
             "icon":"./icons/douyin-tiktok.png",
             "author":"ycrao",
-            "version":"1.4",
+            "version":"1.5",
             "description":"当前仅支持抖音与tiktok短视频下载。",
             "dependencies":[
                 "http.module"
