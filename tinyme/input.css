@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+header {
+    background: url(./static/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#download {
+    color: white;
+    background: url(./static/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: black;
+    background-size: cover;
+}
